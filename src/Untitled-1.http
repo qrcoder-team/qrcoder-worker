@@ -1,0 +1,8 @@
+PUT https://qrcoder-api.tonylin0826.workers.dev/api/qrcode
+Content-Type: application/json
+
+{
+  "id": "test",
+  "type": "url",
+  "url": "https://googl2e.com"
+}

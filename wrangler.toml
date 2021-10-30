@@ -1,0 +1,17 @@
+name = "qrcoder-api"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2021-10-25"
+
+kv_namespaces = [
+	 { binding = "QRCODE", id = "b990f20f4c4346828bf331b5584f6fd8" }
+]
+
+[build]
+command = "npm install && npm run build"
+
+[build.upload]
+format = "service-worker"
